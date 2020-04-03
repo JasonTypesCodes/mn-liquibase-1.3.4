@@ -71,7 +71,6 @@
     <dependency>
       <groupId>io.micronaut.data</groupId>
       <artifactId>micronaut-data-hibernate-jpa</artifactId>
-      <version>${micronaut.data.version}</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -184,12 +183,12 @@
                   <path>
                     <groupId>io.micronaut</groupId>
                     <artifactId>micronaut-inject-java</artifactId>
-                    <version>1.3.3</version>
+                    <version>${micronaut.version}</version>
                   </path>
                   <path>
                     <groupId>io.micronaut</groupId>
                     <artifactId>micronaut-validation</artifactId>
-                    <version>1.3.3</version>
+                    <version>${micronaut.version}</version>
                   </path>
                   <path>
                     <groupId>io.micronaut.data</groupId>
@@ -212,12 +211,12 @@
                   <path>
                     <groupId>io.micronaut</groupId>
                     <artifactId>micronaut-inject-java</artifactId>
-                    <version>1.3.3</version>
+                    <version>${micronaut.version}</version>
                   </path>
                   <path>
                     <groupId>io.micronaut</groupId>
                     <artifactId>micronaut-validation</artifactId>
-                    <version>1.3.3</version>
+                    <version>${micronaut.version}</version>
                   </path>
                   <path>
                     <groupId>io.micronaut.data</groupId>
